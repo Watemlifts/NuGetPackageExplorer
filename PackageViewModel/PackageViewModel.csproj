@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="AuthenticodeExaminer" Version="0.3.0" />
     <PackageReference Include="NuGet.Credentials" Version="5.4.0-xprivate.60013" />
-    <PackageReference Include="NuGet.PackageManagement" Version="5.4.0-xprivate.60013" />
+    <PackageReference Include="NuGet.PackageManagement" Version="5.11.5" />
     <!-- Needs 2.1.2 explicitly until https://github.com/NuGet/Home/issues/5957 is fixed -->
     <PackageReference Include="Microsoft.Web.Xdt" Version="2.1.2" /> 
     <PackageReference Include="NuGet.Commands" Version="5.4.0-xprivate.60013" />
